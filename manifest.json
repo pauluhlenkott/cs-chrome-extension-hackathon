@@ -5,7 +5,7 @@
   "description": "A little help to stay focued on your dreams.",
   "content_scripts": [
     {
-      "matches": ["https://www.youtbe.com/*"],
+      "matches": ["https://www.youtube.com/*"],
       "js": ["./main.js"]
     }
   ]
