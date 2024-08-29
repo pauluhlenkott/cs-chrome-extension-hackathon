@@ -37,7 +37,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  /* Remove any margin or positioning that might affect centering */
+  /* remove any margin or positioning that might affect centering */
   margin: 0;
   position: static;
 }

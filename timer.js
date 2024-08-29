@@ -6,17 +6,18 @@
   const backgroundMusic = document.getElementById('background-music');
 
 //only start the real-timer timer when we click 
-startButton.addEventListener('click', function(){
+startButton.addEventListener('click', 
+    function(){
 
-  startButton.textContent = "breath...";
-  //disable after one click 
-  startButton.disabled = true; 
-  
-  //play background music 
-  backgroundMusic.play();
+    startButton.textContent = "breath...";
+    //disable after one click 
+    startButton.disabled = true; 
+    
+    //play background music 
+    backgroundMusic.play();
 
-  startTimer(60, realTimer)
-  }
+    startTimer(60, realTimer)
+    }
 ); 
   
 //pass in duration and display parameters 
