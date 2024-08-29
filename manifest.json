@@ -1,16 +1,12 @@
 {
-  "name": "Append Test Text",
-  "description": "Add test123 to body",
+  "name": "Meditation Timer",
+  "description": "A simple meditation timer",
   "version": "1.0",
+  "manifest_version": 2,
   "permissions": ["activeTab"],
-  "content_scripts": [
-    {
-      "matches": ["https://*/*"],
-      "js": ["main.js"]
-    }
-  ],
   "browser_action": {
-    "default_title": "Append Test Text"
+    "default_popup": "index.html",
+    "default_title": "Meditation Timer"
   },
   "manifest_version": 2
 }
