@@ -6,22 +6,56 @@
   border: 1px rgb(2, 1, 0) solid;
 }
 
+
+#teddy-bear {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 130px; 
+  height: auto;
+  margin: 10px; 
+  transform: rotate(30deg);
+}
+
 #second {
   position: relative;
   width: 50%;
   height: 50%;
   margin: auto;
   margin-top: 25%;
-  background: rgba(248, 245, 247, 0.35); /* Increased opacity for visibility */
-  border: 1px rgb(14, 6, 0) solid;
-
+  background: rgba(248, 245, 247, 0.35);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#start-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #f805e8b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* remove any margin or positioning that might affect centering */
+  margin: 0;
+  position: static;
+}
+
+#start-button:hover {
+  background-color: #45a049;
+}
+
+#real-timer {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+
 #timer {
   font-size: 24px;
-  color: black;
+  color: white;
   text-align: center;
 }
