@@ -1,0 +1,27 @@
+#first {
+  width: 500px;
+  height: 500px;
+  background: rgb(233, 114, 213);
+  overflow: hidden;
+  border: 1px rgb(2, 1, 0) solid;
+}
+
+#second {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 25%;
+  background: rgba(248, 245, 247, 0.35); /* Increased opacity for visibility */
+  border: 1px rgb(14, 6, 0) solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timer {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}

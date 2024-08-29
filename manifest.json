@@ -1,12 +1,16 @@
 {
-  "manifest_version": 3,
-  "name": "Experiment Time",
-  "version": "1.0.0",
-  "description": "A little help to stay focued on your dreams.",
+  "name": "Append Test Text",
+  "description": "Add test123 to body",
+  "version": "1.0",
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["./main.js"]
+      "matches": ["https://*/*"],
+      "js": ["main.js"]
     }
-  ]
+  ],
+  "browser_action": {
+    "default_title": "Append Test Text"
+  },
+  "manifest_version": 2
 }
